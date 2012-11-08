@@ -18,6 +18,12 @@
 #		~~~End of Copying permission statement~~~
 #This is a script performs a dictionary attack on a LUKS encrypted volume
 
+echo LUKSBashAttack
+echo Copyright 2012, Raymond C. Borges Hink
+echo This program comes with ABSOLUTELY NO WARRANTY
+echo This is free software, and you are welcome to redistribute it
+echo under certain conditions; see COPYING for details.
+
 #read input
 echo Please enter LUKS volume full path 
 echo using format "/dev/device" and press enter:
