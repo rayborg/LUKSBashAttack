@@ -1,7 +1,7 @@
 LUKSBashAttack
 ==============
 
-Sudo mount /dev/sda tempDirectory gives us unknown filesystem type ‘crypto_LUKS’ if sda is a LUKS volume. So to mount the
+Sudo mount /dev/sda tempDirectory gives us unknown filesystem type if sda is a LUKS volume. So to mount the
 drive with shell we use:  “sudo cryptsetup luksOpen /dev/sda tempDirectory”, this prompts for a password 3 times and if 
 the password fails 3 times in a row then it quits. The bash script is based on this command.
 
